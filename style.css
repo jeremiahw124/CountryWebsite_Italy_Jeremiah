@@ -2,11 +2,25 @@ nav{
   padding:5px
 }
 nav a{
-  color:black;
+  color:darkred;
   margin:0 10px 0 10px;
   display:inline-block;
   width:20%;
   text-align:center;
+}
+
+/* Challenge 4: Create a class rule, container that set the display property to flex */
+.container {
+  display: flex;
+}
+/* Challenge 5: Create a class rule, column that set the flex-direction property to column */
+.column {
+  flex-direction: column;
+}
+/* Challenge 6: Create a class rule, center that set the align-items property to center and the justify-contents to center */
+.center {
+  align-items: center;
+  justify-content: center;
 }
 
 /* Challenge 7: Make the font for all elements Arial */
@@ -22,13 +36,29 @@ nav a:hover{
   border-bottom: 2px solid black;
 }
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
+
 .banner{
-  background-color: blue;
+      flex: 1;
+      text-align: center;
+   }
+
+.banner{
+  background-color: green;
   color: white;
 }
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
 .main{
   font-size:24pt;
-  color:blue;
+  color:darkred;
 }
+
+   #footer p{
+      flex: 1;
+      text-align: center;
+   }
+
+   #footer{
+      background-color:green;
+      color:white
+   }
 
