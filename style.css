@@ -13,6 +13,11 @@ nav a{
 .container {
   display: flex;
 }
+
+.container div{
+  flex:1;
+}
+
 /* Challenge 5: Create a class rule, column that set the flex-direction property to column */
 .column {
   flex-direction: column;
@@ -25,7 +30,7 @@ nav a{
 
 /* Challenge 7: Make the font for all elements Arial */
 *{
-  font-family: Arial;
+  font-family: 'Times New Roman', Times, serif;
 }
 /* Challenge 8: Remove the underline for all hyperlinks */
 a{
@@ -58,7 +63,7 @@ nav a:hover{
    }
 
    #footer{
-      background-color:green;
+      background-color:darkred;
       color:white
    }
 
